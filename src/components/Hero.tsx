@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Award } from "lucide-react";
 import heroBg from "@/assets/hero-professional.jpg";
+import logo from "@/assets/logo.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -31,12 +32,13 @@ const Hero = () => {
             <span className="text-sm font-medium text-primary tracking-wider">EXCELENCIA EN DISEÑO</span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 tracking-tight leading-tight">
-            <span className="bg-gradient-gold bg-clip-text text-transparent">
-              RVM
-            </span>
-            <span className="text-foreground">CUSTOMIZER</span>
-          </h1>
+          <div className="mb-6">
+            <img 
+              src={logo} 
+              alt="RVM CustomizeR Logo" 
+              className="h-32 md:h-40 lg:h-48 mx-auto"
+            />
+          </div>
           
           <div className="h-1 w-32 bg-gradient-primary mx-auto mb-8"></div>
           

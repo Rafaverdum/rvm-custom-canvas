@@ -1,13 +1,16 @@
+import logo from "@/assets/logo.jpg";
+
 const Footer = () => {
   return (
     <footer className="bg-card/50 backdrop-blur border-t border-border py-12 px-4">
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-center text-center space-y-4">
           <div className="h-1 w-16 bg-gradient-primary mb-2"></div>
-          <p className="text-foreground font-semibold text-lg">
-            <span className="bg-gradient-gold bg-clip-text text-transparent font-bold">RVM</span>
-            <span className="text-foreground">CUSTOMIZER</span>
-          </p>
+          <img 
+            src={logo} 
+            alt="RVM CustomizeR Logo" 
+            className="h-16"
+          />
           <p className="text-sm text-muted-foreground max-w-md">
             Excelencia en diseño gráfico, servicios de preimpresión profesional y personalización de alta calidad en Ibi, Alicante
           </p>
