@@ -1,13 +1,22 @@
 const Footer = () => {
   return (
-    <footer className="bg-card border-t border-border py-8 px-4">
-      <div className="container mx-auto text-center">
-        <p className="text-muted-foreground mb-2">
-          <span className="font-bold text-primary">RVMCUSTOMIZER</span> © {new Date().getFullYear()}
-        </p>
-        <p className="text-sm text-muted-foreground">
-          Diseño gráfico, preimpresión y personalización en Ibi, Alicante
-        </p>
+    <footer className="bg-card/50 backdrop-blur border-t border-border py-12 px-4">
+      <div className="container mx-auto">
+        <div className="flex flex-col items-center justify-center text-center space-y-4">
+          <div className="h-1 w-16 bg-gradient-primary mb-2"></div>
+          <p className="text-foreground font-semibold text-lg">
+            <span className="bg-gradient-gold bg-clip-text text-transparent font-bold">RVM</span>
+            <span className="text-foreground">CUSTOMIZER</span>
+          </p>
+          <p className="text-sm text-muted-foreground max-w-md">
+            Excelencia en diseño gráfico, servicios de preimpresión profesional y personalización de alta calidad en Ibi, Alicante
+          </p>
+          <div className="pt-4 border-t border-border/50 w-full max-w-md">
+            <p className="text-xs text-muted-foreground">
+              © {new Date().getFullYear()} RVMCUSTOMIZER. Todos los derechos reservados.
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
   );
