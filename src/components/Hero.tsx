@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Award } from "lucide-react";
 import heroBg from "@/assets/hero-professional.jpg";
+import logo from "@/assets/logo.png";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -25,6 +26,15 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 z-10 animate-fade-in">
         <div className="max-w-5xl mx-auto text-center">
+          {/* Logo */}
+          <div className="mb-6">
+            <img 
+              src={logo} 
+              alt="RVMCUSTOMIZER Logo" 
+              className="h-16 w-auto mx-auto opacity-90"
+            />
+          </div>
+          
           {/* Premium Badge */}
           <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-6 py-2 mb-8">
             <Award className="h-4 w-4 text-primary" />
