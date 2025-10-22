@@ -31,7 +31,7 @@ const Hero = () => {
             <img 
               src={logo} 
               alt="RVMCUSTOMIZER Logo" 
-              className="h-24 w-auto mx-auto opacity-90"
+              className="h-32 w-auto mx-auto opacity-90"
             />
           </div>
           
