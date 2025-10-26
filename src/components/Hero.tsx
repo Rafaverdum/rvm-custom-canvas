@@ -36,7 +36,7 @@ const Hero = () => {
             <span className="text-sm font-medium text-primary tracking-wider">EXCELENCIA EN DISEÑO</span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight leading-tight">
             <span className="bg-gradient-gold bg-clip-text text-transparent">
               RVM
             </span>
