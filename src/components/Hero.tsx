@@ -36,11 +36,11 @@ const Hero = () => {
             <span className="text-sm font-medium text-primary tracking-wider">EXCELENCIA EN DISEÑO</span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 tracking-tight leading-tight">
-            <span className="bg-gradient-gold bg-clip-text text-transparent font-gala font-light">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight leading-tight">
+            <span className="bg-gradient-gold bg-clip-text text-transparent">
               RVM
             </span>
-            <span className="text-foreground font-gala font-light">CUSTOMIZER</span>
+            <span className="text-foreground">CUSTOMIZER</span>
           </h1>
           
           <div className="h-1 w-32 bg-gradient-primary mx-auto mb-8"></div>
