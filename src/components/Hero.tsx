@@ -1,13 +1,8 @@
-import { Button } from "@/components/ui/button";
-import { ArrowRight, Award } from "lucide-react";
+import { Award } from "lucide-react";
 import heroBg from "@/assets/hero-professional.jpg";
 import logo from "@/assets/logo.png";
 
 const Hero = () => {
-  const scrollToContact = () => {
-    document.getElementById('contacto')?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
@@ -59,27 +54,6 @@ const Hero = () => {
           <p className="text-base text-muted-foreground mb-12 max-w-2xl mx-auto">
             Transformamos tus ideas en realidad visual con precisión, creatividad y dedicación
           </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              onClick={scrollToContact}
-              size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold px-10 py-7 text-lg shadow-gold transition-all hover:scale-105 hover:shadow-glow"
-            >
-              Solicitar Presupuesto <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-2 border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary font-semibold px-10 py-7 text-lg transition-all"
-              asChild
-            >
-              <a href="tel:665511935">
-                665 511 935
-              </a>
-            </Button>
-          </div>
         </div>
 
         {/* Decorative Elements */}
