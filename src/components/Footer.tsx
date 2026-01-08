@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-card/50 backdrop-blur border-t border-border py-12 px-4">
@@ -11,7 +13,13 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground max-w-md">
             Excelencia en diseño gráfico, servicios de preimpresión profesional y personalización de alta calidad en Ibi, Alicante
           </p>
-          <div className="pt-4 border-t border-border/50 w-full max-w-md">
+          <div className="pt-4 border-t border-border/50 w-full max-w-md space-y-2">
+            <Link 
+              to="/privacidad" 
+              className="text-xs text-muted-foreground hover:text-primary transition-colors underline"
+            >
+              Política de Privacidad y Cookies
+            </Link>
             <p className="text-xs text-muted-foreground">
               © {new Date().getFullYear()} RVMCUSTOMIZER. Todos los derechos reservados.
             </p>
