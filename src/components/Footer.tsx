@@ -11,7 +11,7 @@ const Footer = () => {
             <span className="text-foreground">CUSTOMIZER</span>
           </p>
           <p className="text-sm text-muted-foreground max-w-md">
-            Excelencia en diseño gráfico, servicios de preimpresión profesional y personalización de alta calidad en Ibi, Alicante
+            Excelencia en diseño gráfico, servicios de preimpresión profesional y personalización de alta calidad
           </p>
           <div className="pt-4 border-t border-border/50 w-full max-w-md space-y-2">
             <Link 
